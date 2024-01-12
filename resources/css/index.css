@@ -1,0 +1,64 @@
+body{
+    margin: 0px 5px;
+}
+
+*{
+    font-family: Helvetica;
+}
+
+header{
+    background-image: url(/resources/images/pattern.jpeg);
+    padding: 5px 0px;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.brushes{
+    background-color: mediumspringgreen;
+    padding-left: 5px;
+}
+
+.frames{
+    background-color: lightcoral;
+    padding-left: 5px;
+}
+
+.paint{
+    background-color: skyblue;
+    padding-left: 5px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.products{
+    display: inline-block;  
+    column-gap: 10px;
+    margin: 0px 10px;
+}
+
+.products>div{
+    display: inline-block;
+    max-width: 30%;
+    overflow: auto;
+    text-align: center;
+    padding: 0px 5px;
+    max-width: 400px;
+}
